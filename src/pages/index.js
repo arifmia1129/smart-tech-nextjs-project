@@ -3,6 +3,7 @@ import HomeCarousel from "@/components/ui/Carousel";
 import HeaderFeature from "@/components/ui/HeaderFeature";
 import { Col, Row } from "antd";
 import React from "react";
+import Marquee from "react-fast-marquee";
 
 const Home = () => {
   return (
@@ -22,6 +23,10 @@ const Home = () => {
           <HeaderFeature />
         </Col>
       </Row>
+      <Marquee style={{ marginTop: 20 }}>
+        Smart Tech lanuch PC Builder. So now build your dream PC with Smart
+        Tech.
+      </Marquee>
     </div>
   );
 };
