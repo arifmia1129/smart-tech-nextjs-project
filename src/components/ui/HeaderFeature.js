@@ -4,7 +4,14 @@ import React from "react";
 
 const HeaderFeature = () => {
   return (
-    <div style={{ display: "flex", alignItems: "center", height: 500 }}>
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        height: 500,
+        justifyContent: "center",
+      }}
+    >
       <div>
         <Image
           src={

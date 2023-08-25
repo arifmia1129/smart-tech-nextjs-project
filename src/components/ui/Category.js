@@ -1,4 +1,4 @@
-import { Button, Card } from "antd";
+import { Button, Card, Col, Row } from "antd";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -26,16 +26,12 @@ const Category = ({ category }) => {
   return (
     <Card bordered style={{ marginTop: 10 }}>
       <Link href={`/products/${category.category}`}>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            marginLeft: 20,
-            marginRight: 20,
-          }}
+        <Row
+          justify="space-between"
+          align="middle"
+          style={{ marginLeft: 20, marginRight: 20 }}
         >
-          <div style={{ width: 200 }}>
+          <Col xs={24} md={12} lg={8}>
             <div style={{ display: "flex", justifyContent: "center" }}>
               <Image
                 src={category?.imageUrl}
@@ -45,9 +41,10 @@ const Category = ({ category }) => {
               />
             </div>
             <h2 style={{ textAlign: "center" }}>{category?.category}</h2>
-          </div>
+          </Col>
+
           {choosenProduct && (
-            <div>
+            <Col xs={24} md={12} lg={8}>
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <Image
                   src={choosenProduct?.imageUrl}
@@ -60,12 +57,15 @@ const Category = ({ category }) => {
               <h5 style={{ textAlign: "center", marginTop: -10 }}>
                 {choosenProduct?.price}
               </h5>
-            </div>
+            </Col>
           )}
-          <Button type="primary" size="large">
-            Choose
-          </Button>
-        </div>
+
+          <Col xs={24} md={12} lg={4}>
+            <Button type="primary" size="large" block>
+              Choose
+            </Button>
+          </Col>
+        </Row>
       </Link>
     </Card>
   );

@@ -50,7 +50,7 @@ const Products = ({ products }) => {
       >
         {products?.map((product) => (
           <Col
-            key={product.id}
+            key={product._id}
             className="gutter-row"
             xs={24}
             sm={12}
@@ -58,7 +58,7 @@ const Products = ({ products }) => {
             lg={6}
             style={{ marginBottom: 20 }}
           >
-            <Card style={{ height: 600 }} bordered={false}>
+            <Card style={{ height: 700 }} bordered={false}>
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <Image
                   src={product?.imageUrl}
@@ -89,6 +89,26 @@ const Products = ({ products }) => {
               >
                 Price: {product.price}
               </h3>
+              <h4
+                style={{
+                  marginTop: 5,
+                  color: "orange",
+                  fontWeight: "bold",
+                  textAlign: "center",
+                }}
+              >
+                {product.status}
+              </h4>
+              <h4
+                style={{
+                  marginTop: 5,
+                  color: "blue",
+                  fontWeight: "bold",
+                  textAlign: "center",
+                }}
+              >
+                Rating: {product.individualRating} of 5
+              </h4>
               <div
                 style={{
                   display: "flex",
@@ -105,6 +125,20 @@ const Products = ({ products }) => {
                 >
                   Add to Builder
                 </Button>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  height: 50,
+                }}
+              >
+                <Link href={`products/details/${product._id}`}>
+                  <Button type="primary" size="large">
+                    Details
+                  </Button>
+                </Link>
               </div>
             </Card>
           </Col>

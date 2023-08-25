@@ -19,7 +19,7 @@ const FeaturedCategories = ({ categories }) => {
       >
         {categories?.map((category) => (
           <Col
-            key={category.id}
+            key={category._id}
             className="gutter-row"
             xs={24}
             sm={12}
