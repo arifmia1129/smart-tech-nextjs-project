@@ -1,0 +1,745 @@
+{
+  "products": [
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/processor/amd/Athlon/athlon-228x228.jpg",
+      "Product Name": "AMD Athlon",
+      "Category": "CPU",
+      "Status": "In Stock",
+      "Price": "$99.99",
+      "Description": "Powerful AMD Athlon processor for high performance computing.",
+      "Key Features": {
+        "Brand": "AMD",
+        "Model": "Athlon",
+        "Specification": "Quad-core, 3.2GHz"
+      },
+      "Individual Rating": 4.5,
+      "Average Rating": 4.3,
+      "Reviews": [
+        "Great value for the performance.",
+        "Handles multitasking really well."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/i3-10100/i3-10100-228x228.jpg",
+      "Product Name": "Intel Core i3-10100",
+      "Category": "CPU",
+      "Status": "In Stock",
+      "Price": "$149.99",
+      "Description": "Intel Core i3 processor with excellent performance.",
+      "Key Features": {
+        "Brand": "Intel",
+        "Model": "Core i3-10100",
+        "Specification": "Quad-core, 3.6GHz"
+      },
+      "Individual Rating": 4.8,
+      "Average Rating": 4.7,
+      "Reviews": [
+        "Fast and reliable CPU.",
+        "Perfect for everyday computing tasks."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/processor/AMD/ryzen-3-4100/amd-ryzen-3-4100-01-228x228.jpg",
+      "Product Name": "AMD Ryzen 3 4100",
+      "Category": "CPU",
+      "Status": "In Stock",
+      "Price": "$189.99",
+      "Description": "High-performance AMD Ryzen 3 processor for gaming and content creation.",
+      "Key Features": {
+        "Brand": "AMD",
+        "Model": "Ryzen 3 4100",
+        "Specification": "Quad-core, 3.8GHz, Zen 3 architecture"
+      },
+      "Individual Rating": 4.7,
+      "Average Rating": 4.6,
+      "Reviews": [
+        "Impressive gaming performance.",
+        "Handles video editing smoothly."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/processor/intel/i3-12100f/i3-12100f-228x228.jpg",
+      "Product Name": "Intel Core i3-12100F",
+      "Category": "CPU",
+      "Status": "In Stock",
+      "Price": "$139.99",
+      "Description": "Budget-friendly Intel Core i3 processor for entry-level systems.",
+      "Key Features": {
+        "Brand": "Intel",
+        "Model": "Core i3-12100F",
+        "Specification": "Quad-core, 3.9GHz"
+      },
+      "Individual Rating": 4.3,
+      "Average Rating": 4.2,
+      "Reviews": ["Good value for the money.", "Handles office tasks well."]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/i3-10100/i3-10100-228x228.jpg",
+      "Product Name": "Intel Core i3-10100",
+      "Category": "CPU",
+      "Status": "In Stock",
+      "Price": "$149.99",
+      "Description": "Intel Core i3 processor with excellent performance.",
+      "Key Features": {
+        "Brand": "Intel",
+        "Model": "Core i3-10100",
+        "Specification": "Quad-core, 3.6GHz"
+      },
+      "Individual Rating": 4.8,
+      "Average Rating": 4.7,
+      "Reviews": [
+        "Fast and reliable CPU.",
+        "Perfect for everyday computing tasks."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/ram/netac/basic-4gb-ddr4-2666mhz/basic-4gb-ddr4-2666mhz-01-228x228.webp",
+      "Product Name": "Netac Basic 4GB DDR4 2666MHz",
+      "Category": "RAM",
+      "Status": "In Stock",
+      "Price": "$39.99",
+      "Description": "Reliable 4GB DDR4 RAM for efficient multitasking.",
+      "Key Features": {
+        "Brand": "Netac",
+        "Model": "Basic",
+        "Specification": "4GB DDR4, 2666MHz"
+      },
+      "Individual Rating": 4.2,
+      "Average Rating": 4.0,
+      "Reviews": [
+        "Affordable and works well.",
+        "Improved my computer's performance."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/ram/netac/basic-ddr3-4gb-1600mhz/basic-ddr3-4gb-1600mhz-01-228x228.webp",
+      "Product Name": "Netac Basic DDR3 4GB 1600MHz",
+      "Category": "RAM",
+      "Status": "In Stock",
+      "Price": "$29.99",
+      "Description": "Budget-friendly DDR3 RAM for entry-level systems.",
+      "Key Features": {
+        "Brand": "Netac",
+        "Model": "Basic",
+        "Specification": "4GB DDR3, 1600MHz"
+      },
+      "Individual Rating": 4.0,
+      "Average Rating": 3.8,
+      "Reviews": [
+        "Decent RAM for the price.",
+        "Great for basic tasks and light gaming."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/ram/gskill/value/value-01-228x228.webp",
+      "Product Name": "G.SKILL Value Series",
+      "Category": "RAM",
+      "Status": "In Stock",
+      "Price": "$49.99",
+      "Description": "High-quality RAM from G.SKILL's Value Series.",
+      "Key Features": {
+        "Brand": "G.SKILL",
+        "Model": "Value Series",
+        "Specification": "8GB DDR4, 2400MHz"
+      },
+      "Individual Rating": 4.6,
+      "Average Rating": 4.5,
+      "Reviews": [
+        "Reliable brand, good performance.",
+        "Suits my gaming and multitasking needs."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/RAM/TwinMOS/TwinMOS%204GB%20DDR4%202400-228x228.jpg",
+      "Product Name": "TwinMOS 4GB DDR4 2400MHz",
+      "Category": "RAM",
+      "Status": "In Stock",
+      "Price": "$35.99",
+      "Description": "Quality 4GB DDR4 RAM for smooth system operation.",
+      "Key Features": {
+        "Brand": "TwinMOS",
+        "Model": "4GB DDR4 2400MHz",
+        "Specification": "4GB DDR4, 2400MHz"
+      },
+      "Individual Rating": 4.3,
+      "Average Rating": 4.2,
+      "Reviews": [
+        "Affordable and works as expected.",
+        "Improved my PC's responsiveness."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/ram/transcend/jetram-4gb/jetram-4gb-01-228x228.webp",
+      "Product Name": "Transcend JetRAM 4GB",
+      "Category": "RAM",
+      "Status": "In Stock",
+      "Price": "$42.99",
+      "Description": "Reliable Transcend JetRAM for stable performance.",
+      "Key Features": {
+        "Brand": "Transcend",
+        "Model": "JetRAM",
+        "Specification": "4GB DDR4, 2133MHz"
+      },
+      "Individual Rating": 4.1,
+      "Average Rating": 4.0,
+      "Reviews": [
+        "Good RAM for the price.",
+        "Works well for everyday computing."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/ga-h81m-s2ph/ga-h81m-s2ph-228x228.jpg",
+      "Product Name": "Gigabyte GA-H81M-S2PH Motherboard",
+      "Category": "Motherboard",
+      "Status": "In Stock",
+      "Price": "$89.99",
+      "Description": "A high-quality micro ATX motherboard with H81 chipset.",
+      "Key Features": {
+        "Brand": "Gigabyte",
+        "Model": "GA-H81M-S2PH",
+        "Specification": "Micro ATX, LGA1150",
+        "Ports": "USB 3.0, HDMI, VGA",
+        "Socket Type": "LGA 1150",
+        "Voltage": "5 Volts",
+        "Form Factor": "Micro ATX"
+      },
+      "Individual Rating": 4.5,
+      "Average Rating": 4.4,
+      "Reviews": [
+        "Great value for the price!",
+        "Easy installation and setup.",
+        "Limited RAM slots but works well."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/motherboard/biostar/h610mh/h610mh-01-228x228.webp",
+      "Product Name": "Biostar H610MH Motherboard",
+      "Category": "Motherboard",
+      "Status": "Out of stock",
+      "Price": "$79.99",
+      "Description": "A budget-friendly micro ATX motherboard with H610 chipset.",
+      "Key Features": {
+        "Brand": "Biostar",
+        "Model": "H610MH",
+        "Specification": "Micro ATX, LGA1200",
+        "Ports": "USB 3.1, DVI-D, HDMI",
+        "Socket Type": "LGA 1200",
+        "Voltage": "5 Volts",
+        "Form Factor": "Micro ATX"
+      },
+      "Individual Rating": 3.8,
+      "Average Rating": 3.5,
+      "Reviews": [
+        "Decent features for the price.",
+        "Not suitable for heavy gaming.",
+        "Limited BIOS options."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/ga-h81m-ds2/ga-h81m-ds2-1-228x228.jpg",
+      "Product Name": "Gigabyte GA-H81M-DS2 Motherboard",
+      "Category": "Motherboard",
+      "Status": "In Stock",
+      "Price": "$79.99",
+      "Description": "An affordable micro ATX motherboard with H81 chipset.",
+      "Key Features": {
+        "Brand": "Gigabyte",
+        "Model": "GA-H81M-DS2",
+        "Specification": "Micro ATX, LGA1150",
+        "Ports": "USB 2.0, VGA, DVI",
+        "Socket Type": "LGA 1150",
+        "Voltage": "5 Volts",
+        "Form Factor": "Micro ATX"
+      },
+      "Individual Rating": 4.0,
+      "Average Rating": 4.2,
+      "Reviews": [
+        "Reliable and budget-friendly.",
+        "Lacks advanced features but gets the job done.",
+        "Good for office PCs."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/Motherboard/Gigabyte/GIGABYTE%20GA-J1800M-D3P/GIGABYTE%20GA-J1800M-D3P-1-228x228.jpg",
+      "Product Name": "Gigabyte GA-J1800M-D3P Motherboard",
+      "Category": "Motherboard",
+      "Status": "In Stock",
+      "Price": "$64.99",
+      "Description": "A mini-ITX motherboard with integrated Intel Celeron processor.",
+      "Key Features": {
+        "Brand": "Gigabyte",
+        "Model": "GA-J1800M-D3P",
+        "Specification": "Mini-ITX, Integrated CPU",
+        "Ports": "USB 3.0, HDMI, VGA",
+        "Socket Type": "Integrated CPU",
+        "Voltage": "12 Volts",
+        "Form Factor": "Mini-ITX"
+      },
+      "Individual Rating": 3.6,
+      "Average Rating": 3.2,
+      "Reviews": [
+        "Compact and energy-efficient.",
+        "Not suitable for gaming, but good for basic tasks.",
+        "Limited upgrade options."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/motherboard/msi/b450m-a-pro-max-ii/b450m-a-pro-max-ii-01-228x228.webp",
+      "Product Name": "MSI B450M-A PRO MAX II Motherboard",
+      "Category": "Motherboard",
+      "Status": "In Stock",
+      "Price": "$109.99",
+      "Description": "A feature-rich micro ATX motherboard with B450 chipset.",
+      "Key Features": {
+        "Brand": "MSI",
+        "Model": "B450M-A PRO MAX II",
+        "Specification": "Micro ATX, AM4",
+        "Ports": "USB 3.2, HDMI, DisplayPort",
+        "Socket Type": "AM4",
+        "Voltage": "5 Volts",
+        "Form Factor": "Micro ATX"
+      },
+      "Individual Rating": 4.8,
+      "Average Rating": 4.6,
+      "Reviews": [
+        "Excellent compatibility and performance.",
+        "Great for gaming rigs with a compact setup.",
+        "BIOS updates are easy to manage."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/power-supply/gamdias/aura-gp450/aura-gp450-01-228x228.webp",
+      "Product Name": "Gamdias AURA GP450",
+      "Category": "Power Supply",
+      "Status": "In Stock",
+      "Price": "$55.99",
+      "Description": "High-performance power supply for gaming enthusiasts.",
+      "Key Features": {
+        "Brand": "Gamdias",
+        "Model": "AURA GP450",
+        "Specification": "450W",
+        "Port": "ATX",
+        "Type": "Non-Modular",
+        "Voltage": "110-240V"
+      },
+      "Individual Rating": 4.5,
+      "Average Rating": 4.3,
+      "Reviews": [
+        "Great power supply, runs quietly.",
+        "Easy to install and reliable performance."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/power-supply/antec/meta-v350/meta-v350-01-228x228.webp",
+      "Product Name": "Antec META V350",
+      "Category": "Power Supply",
+      "Status": "Out of stock",
+      "Price": "$69.99",
+      "Description": "Compact power supply with high efficiency.",
+      "Key Features": {
+        "Brand": "Antec",
+        "Model": "META V350",
+        "Specification": "350W",
+        "Port": "ATX",
+        "Type": "Semi-Modular",
+        "Voltage": "100-240V"
+      },
+      "Individual Rating": 4.0,
+      "Average Rating": 3.8,
+      "Reviews": [
+        "Good value for the price.",
+        "Cable management is easy due to semi-modular design."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/power-supply/power-train/pt-p200b/pt-p200b-01-228x228.webp",
+      "Product Name": "Power Train PT-P200B",
+      "Category": "Power Supply",
+      "Status": "In Stock",
+      "Price": "$39.95",
+      "Description": "Budget-friendly power supply for basic systems.",
+      "Key Features": {
+        "Brand": "Power Train",
+        "Model": "PT-P200B",
+        "Specification": "200W",
+        "Port": "Micro ATX",
+        "Type": "Non-Modular",
+        "Voltage": "110-220V"
+      },
+      "Individual Rating": 3.8,
+      "Average Rating": 3.5,
+      "Reviews": [
+        "Works well for simple office computers.",
+        "Not suitable for power-hungry components."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/power-supply/revenger/vp-350/vp-350-01-228x228.webp",
+      "Product Name": "Revenger VP-350",
+      "Category": "Power Supply",
+      "Status": "In Stock",
+      "Price": "$49.50",
+      "Description": "Reliable power supply for mainstream systems.",
+      "Key Features": {
+        "Brand": "Revenger",
+        "Model": "VP-350",
+        "Specification": "350W",
+        "Port": "ATX",
+        "Type": "Non-Modular",
+        "Voltage": "100-240V"
+      },
+      "Individual Rating": 4.2,
+      "Average Rating": 4.0,
+      "Reviews": [
+        "Stable performance and good build quality.",
+        "Cables could be longer for larger cases."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/power-supply/ovo/ops-p4-450w/ops-p4-450w-02-228x228.webp",
+      "Product Name": "OVO OPS-P4-450W",
+      "Category": "Power Supply",
+      "Status": "In Stock",
+      "Price": "$59.95",
+      "Description": "Efficient power supply with quiet operation.",
+      "Key Features": {
+        "Brand": "OVO",
+        "Model": "OPS-P4-450W",
+        "Specification": "450W",
+        "Port": "ATX",
+        "Type": "Non-Modular",
+        "Voltage": "110-240V"
+      },
+      "Individual Rating": 4.7,
+      "Average Rating": 4.5,
+      "Reviews": [
+        "Keeps the system cool and runs quietly.",
+        "Worth the price for the performance."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/hdd/seagate/skyhawk-2tb-surveillance/skyhawk-2tb-surveillance-01-228x228.webp",
+      "Product Name": "Seagate Skyhawk 2TB Surveillance HDD",
+      "Category": "Hard Drive",
+      "Status": "In Stock",
+      "Price": 89.99,
+      "Description": "High-capacity hard drive optimized for surveillance applications.",
+      "Key Features": {
+        "Brand": "Seagate",
+        "Model": "Skyhawk",
+        "Specification": "2TB Surveillance HDD",
+        "Port": "SATA",
+        "Type": "Internal",
+        "Voltage": "5V"
+      },
+      "Individual Rating": 4.5,
+      "Average Rating": 4.3,
+      "Reviews": [
+        {
+          "Rating": 5,
+          "Comment": "Excellent performance for security systems."
+        },
+        {
+          "Rating": 4,
+          "Comment": "Good value for the price."
+        }
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/hdd/western-digital/wd-2tb-blue/wd-2tb-blue-02-228x228.webp",
+      "Product Name": "WD 2TB Blue Hard Drive",
+      "Category": "Hard Drive",
+      "Status": "In Stock",
+      "Price": 79.99,
+      "Description": "Reliable and versatile hard drive for everyday use.",
+      "Key Features": {
+        "Brand": "Western Digital",
+        "Model": "WD Blue",
+        "Specification": "2TB HDD",
+        "Port": "SATA",
+        "Type": "Internal",
+        "Voltage": "5V"
+      },
+      "Individual Rating": 4.7,
+      "Average Rating": 4.6,
+      "Reviews": [
+        {
+          "Rating": 5,
+          "Comment": "Fast data transfer speeds and quiet operation."
+        },
+        {
+          "Rating": 4,
+          "Comment": "Works great for storing media files."
+        }
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/hdd/toshiba/p300-1tb/p300-1tb-1-228x228.jpg",
+      "Product Name": "Toshiba P300 1TB Hard Drive",
+      "Category": "Hard Drive",
+      "Status": "Out of stock",
+      "Price": 49.99,
+      "Description": "High-performance hard drive for gaming and creative tasks.",
+      "Key Features": {
+        "Brand": "Toshiba",
+        "Model": "P300",
+        "Specification": "1TB HDD",
+        "Port": "SATA",
+        "Type": "Internal",
+        "Voltage": "5V"
+      },
+      "Individual Rating": 4.2,
+      "Average Rating": 4.0,
+      "Reviews": [
+        {
+          "Rating": 4,
+          "Comment": "Good for gaming, but could be quieter."
+        },
+        {
+          "Rating": 3,
+          "Comment": "Average performance, nothing special."
+        }
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/HDD/Western%20Digital/WD%20INT%20Blue%201TB-228x228.jpg",
+      "Product Name": "WD 1TB Blue Internal Hard Drive",
+      "Category": "Hard Drive",
+      "Status": "In Stock",
+      "Price": 59.99,
+      "Description": "Dependable storage solution for various applications.",
+      "Key Features": {
+        "Brand": "Western Digital",
+        "Model": "WD Blue",
+        "Specification": "1TB Internal HDD",
+        "Port": "SATA",
+        "Type": "Internal",
+        "Voltage": "5V"
+      },
+      "Individual Rating": 4.6,
+      "Average Rating": 4.5,
+      "Reviews": [
+        {
+          "Rating": 5,
+          "Comment": "Easy installation and reliable performance."
+        },
+        {
+          "Rating": 4,
+          "Comment": "Great value for the storage capacity."
+        }
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/Component/HDD/Seagate%20/seagate-1-228x228.jpg",
+      "Product Name": "Seagate 1TB Desktop HDD",
+      "Category": "Hard Drive",
+      "Status": "In Stock",
+      "Price": 54.99,
+      "Description": "Affordable and spacious hard drive for desktop computers.",
+      "Key Features": {
+        "Brand": "Seagate",
+        "Model": "Desktop HDD",
+        "Specification": "1TB HDD",
+        "Port": "SATA",
+        "Type": "Internal",
+        "Voltage": "5V"
+      },
+      "Individual Rating": 4.0,
+      "Average Rating": 3.8,
+      "Reviews": [
+        {
+          "Rating": 4,
+          "Comment": "Decent performance for the price."
+        },
+        {
+          "Rating": 3,
+          "Comment": "Not the fastest, but works for storage."
+        }
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/monitor/lenovo/d19-10/d19-10-01-228x228.jpg",
+      "Product Name": "Lenovo D19-10 Monitor",
+      "Category": "Monitor",
+      "Status": "In Stock",
+      "Price": "$149.99",
+      "Description": "A high-quality monitor with advanced features.",
+      "Key Features": {
+        "Brand": "Lenovo",
+        "Model": "D19-10",
+        "Specification": "Full HD, 19-inch",
+        "Port": "HDMI, VGA",
+        "Type": "LED",
+        "Resolution": "1920x1080",
+        "Voltage": "120-240V"
+      },
+      "Individual Rating": 4.5,
+      "Average Rating": 4.3,
+      "Reviews": [
+        "Great monitor for the price!",
+        "Excellent resolution and color accuracy."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/monitor/philips/193v/193v-228x228.png",
+      "Product Name": "Philips 193V Monitor",
+      "Category": "Monitor",
+      "Status": "Out of stock",
+      "Price": "$129.95",
+      "Description": "A reliable monitor with energy-saving features.",
+      "Key Features": {
+        "Brand": "Philips",
+        "Model": "193V",
+        "Specification": "HD, 19-inch",
+        "Port": "VGA",
+        "Type": "LCD",
+        "Resolution": "1366x768",
+        "Voltage": "100-240V"
+      },
+      "Individual Rating": 4.0,
+      "Average Rating": 3.8,
+      "Reviews": [
+        "Clear display but lacks HDMI port.",
+        "Good value for the price."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/monitor/univision/led350/led350-01-228x228.png",
+      "Product Name": "Univision LED350 Monitor",
+      "Category": "Monitor",
+      "Status": "In Stock",
+      "Price": "$179.00",
+      "Description": "A sleek and modern monitor with vibrant colors.",
+      "Key Features": {
+        "Brand": "Univision",
+        "Model": "LED350",
+        "Specification": "Full HD, 21-inch",
+        "Port": "HDMI, DisplayPort",
+        "Type": "LED",
+        "Resolution": "1920x1080",
+        "Voltage": "110-220V"
+      },
+      "Individual Rating": 4.8,
+      "Average Rating": 4.7,
+      "Reviews": [
+        "Impressive design and picture quality.",
+        "Easy setup and multiple connectivity options."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/monitor/msi/g2412/g2412-06-228x228.webp",
+      "Product Name": "MSI G2412 Monitor",
+      "Category": "Monitor",
+      "Status": "In Stock",
+      "Price": "$209.99",
+      "Description": "A gaming monitor designed for high-performance.",
+      "Key Features": {
+        "Brand": "MSI",
+        "Model": "G2412",
+        "Specification": "Full HD, 24-inch",
+        "Port": "HDMI, DisplayPort",
+        "Type": "LED",
+        "Resolution": "1920x1080",
+        "Voltage": "100-240V"
+      },
+      "Individual Rating": 4.6,
+      "Average Rating": 4.5,
+      "Reviews": [
+        "Smooth gameplay experience with fast refresh rate.",
+        "Color accuracy could be improved."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/monitor/enter/e-mo-a01/e-mo-a01-01-228x228.webp",
+      "Product Name": "Enter E-MO-A01 Monitor",
+      "Category": "Monitor",
+      "Status": "Out of stock",
+      "Price": "$89.95",
+      "Description": "An affordable monitor for everyday tasks.",
+      "Key Features": {
+        "Brand": "Enter",
+        "Model": "E-MO-A01",
+        "Specification": "HD, 18.5-inch",
+        "Port": "VGA",
+        "Type": "LCD",
+        "Resolution": "1366x768",
+        "Voltage": "110-220V"
+      },
+      "Individual Rating": 3.9,
+      "Average Rating": 3.6,
+      "Reviews": [
+        "Decent monitor for basic use.",
+        "Not suitable for detailed graphics work."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/product1.jpg",
+      "Product Name": "Gaming Mouse",
+      "Category": "Other",
+      "Status": "In Stock",
+      "Price": 39.99,
+      "Description": "Experience precision gaming with our advanced gaming mouse.",
+      "Key Features": {
+        "Brand": "Logitech",
+        "Model": "G502",
+        "Specification": "Advanced optical sensor, customizable buttons",
+        "Port": "USB",
+        "Type": "Wired",
+        "Resolution": "16000 DPI",
+        "Voltage": "5V"
+      },
+      "Individual Rating": 4.5,
+      "Average Rating": 4.3,
+      "Reviews": [
+        "Great mouse for gaming enthusiasts.",
+        "Very comfortable grip.",
+        "Highly customizable."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/product2.jpg",
+      "Product Name": "Mechanical Keyboard",
+      "Category": "Other",
+      "Status": "Out of stock",
+      "Price": 89.99,
+      "Description": "Elevate your typing experience with our mechanical keyboard.",
+      "Key Features": {
+        "Brand": "iMice",
+        "Model": "K-818",
+        "Specification": "Mechanical switches, RGB backlighting",
+        "Port": "USB",
+        "Type": "Wired",
+        "Voltage": "5V"
+      },
+      "Individual Rating": 4.2,
+      "Average Rating": 4.0,
+      "Reviews": [
+        "Love the clicky sound of the keys.",
+        "RGB lighting effects are impressive.",
+        "Durable build."
+      ]
+    },
+    {
+      "ImageUrl": "https://www.startech.com.bd/image/cache/catalog/product3.jpg",
+      "Product Name": "Bluetooth Speaker",
+      "Category": "Other",
+      "Status": "In Stock",
+      "Price": 49.99,
+      "Description": "Experience high-quality audio with our Bluetooth speaker.",
+      "Key Features": {
+        "Brand": "Xtreme",
+        "Model": "E121",
+        "Specification": "10W output, portable design",
+        "Port": "Bluetooth, AUX",
+        "Voltage": "7.4V"
+      },
+      "Individual Rating": 4.7,
+      "Average Rating": 4.6,
+      "Reviews": [
+        "Surprisingly loud for its size.",
+        "Bluetooth connectivity works flawlessly.",
+        "Great battery life."
+      ]
+    }
+  ]
+}
