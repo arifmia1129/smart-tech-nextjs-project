@@ -27,7 +27,7 @@ const FeaturedCategories = ({ categories }) => {
             lg={6}
             style={{ marginBottom: 20 }}
           >
-            <Link href="">
+            <Link href={`/products/${category?.category}`}>
               <Card bordered={false}>
                 <div style={{ display: "flex", justifyContent: "center" }}>
                   <Image

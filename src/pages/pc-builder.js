@@ -2,6 +2,7 @@ import RootLayout from "@/components/Layouts/RootLayout";
 import SelectProductFromCatory from "@/components/ui/SelectProductFromCatory";
 import { Button } from "antd";
 import { useEffect, useState } from "react";
+import { toast } from "react-hot-toast";
 import { useSelector } from "react-redux";
 
 const PCBuilder = ({ categories }) => {
@@ -30,7 +31,12 @@ const PCBuilder = ({ categories }) => {
         PC Builder - Build Your Own Computer - Smart Tech
       </h2>
       <div style={{ display: "flex", justifyContent: "end" }}>
-        <Button disabled={isCompleteBtnDisable} type="primary" size="large">
+        <Button
+          onClick={() => toast.success("Successfully build your PC")}
+          disabled={isCompleteBtnDisable}
+          type="primary"
+          size="large"
+        >
           Complete Your PC Build
         </Button>
       </div>
