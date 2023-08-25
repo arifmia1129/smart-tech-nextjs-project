@@ -52,13 +52,12 @@ PCBuilder.getLayout = function getLayout(page) {
 };
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/categories");
+  const res = await fetch("http://localhost:3000/api/categories");
   const data = await res.json();
-  console.log(data);
 
   return {
     props: {
-      categories: data,
+      categories: data?.data,
     },
   };
 };

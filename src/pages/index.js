@@ -2,11 +2,12 @@ import RootLayout from "@/components/Layouts/RootLayout";
 import HomeCarousel from "@/components/ui/Carousel";
 import FeaturedCategories from "@/components/ui/FeaturedCategories";
 import HeaderFeature from "@/components/ui/HeaderFeature";
+import Products from "@/components/ui/Products";
 import { Card, Col, Image, Row } from "antd";
 import React from "react";
 import Marquee from "react-fast-marquee";
 
-const Home = ({ categories }) => {
+const Home = ({ categories, products }) => {
   return (
     <div>
       <Row
@@ -29,6 +30,7 @@ const Home = ({ categories }) => {
         Tech.
       </Marquee>
       <FeaturedCategories categories={categories} />
+      <Products products={products} />
     </div>
   );
 };
@@ -39,14 +41,35 @@ Home.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
 };
 
+function selectRandomProducts(data, numProducts = 6) {
+  if (numProducts > data.length) {
+    return;
+  }
+
+  const randomProducts = [];
+  const copyData = [...data];
+
+  while (randomProducts.length < numProducts) {
+    const randomIndex = Math.floor(Math.random() * copyData.length);
+    randomProducts.push(copyData.splice(randomIndex, 1)[0]);
+  }
+
+  return randomProducts;
+}
+
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/categories");
+  const res = await fetch("http://localhost:3000/api/categories");
   const data = await res.json();
-  console.log(data);
+
+  const res2 = await fetch("http://localhost:3000/api/products");
+  const data2 = await res2.json();
+
+  const products = selectRandomProducts(data2.data);
 
   return {
     props: {
-      categories: data,
+      categories: data?.data,
+      products,
     },
   };
 };

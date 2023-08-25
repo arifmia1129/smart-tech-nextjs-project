@@ -69,10 +69,14 @@ const Products = ({ products }) => {
               </div>
               <h2 style={{ textAlign: "center" }}>{product?.name}</h2>
               <div style={{ height: 150 }}>
-                <p style={{ color: "gray" }}>Brand: {product.features.brand}</p>
-                <p style={{ color: "gray" }}>Model: {product.features.model}</p>
                 <p style={{ color: "gray" }}>
-                  Specification: {product.features.specification}
+                  Brand: {product?.features?.brand}
+                </p>
+                <p style={{ color: "gray" }}>
+                  Model: {product?.features?.model}
+                </p>
+                <p style={{ color: "gray" }}>
+                  Specification: {product?.features?.specification}
                 </p>
               </div>
               <h3

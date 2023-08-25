@@ -4,7 +4,6 @@ import { useRouter } from "next/router";
 import React from "react";
 
 const ProductsWithCategory = ({ products }) => {
-  console.log(products);
   const router = useRouter();
   return (
     <div>
@@ -20,12 +19,12 @@ ProductsWithCategory.getLayout = function getLayout(page) {
 };
 
 export const getServerSideProps = async ({ params }) => {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch("http://localhost:3000/api/products");
   const data = await res.json();
 
   let filteredCategory;
 
-  filteredCategory = data.filter(
+  filteredCategory = data?.data?.filter(
     (product) => product.category === params.productCategory
   );
 
