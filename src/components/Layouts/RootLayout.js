@@ -1,6 +1,7 @@
 import React from "react";
-import { Breadcrumb, Layout, Menu, theme } from "antd";
+import { Breadcrumb, Button, Layout, Menu, theme } from "antd";
 import Link from "next/link";
+import Image from "next/image";
 const { Header, Content, Footer } = Layout;
 const RootLayout = ({ children }) => {
   const {
@@ -12,14 +13,19 @@ const RootLayout = ({ children }) => {
         style={{
           display: "flex",
           alignItems: "center",
+          justifyContent: "space-between",
         }}
       >
-        <div className="demo-logo" />
-        <Menu theme="dark" mode="horizontal" defaultSelectedKeys={["2"]}>
-          <Menu.Item key="log-out">
-            <Link href="/">Home</Link>
-          </Menu.Item>
-        </Menu>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <Link style={{ display: "flex", alignItems: "center" }} href="/">
+            <Image src="/logo.png" alt="logo" height={50} width={200} />
+          </Link>
+        </div>
+        <div>
+          <Link href="/pc-builder">
+            <Button size="large">PC Builder</Button>
+          </Link>
+        </div>
       </Header>
       <Content
         style={{
