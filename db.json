@@ -741,5 +741,42 @@
         "Great battery life."
       ]
     }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "category": "CPU",
+      "imageUrl": "/category/cpu.png"
+    },
+    {
+      "id": 2,
+      "category": "Motherboard",
+      "imageUrl": "/category/motherboard.png"
+    },
+    {
+      "id": 3,
+      "category": "RAM",
+      "imageUrl": "/category/ram.png"
+    },
+    {
+      "id": 4,
+      "category": "Power Supply",
+      "imageUrl": "/category/power-supply.png"
+    },
+    {
+      "id": 5,
+      "category": "Monitor",
+      "imageUrl": "/category/monitor.png"
+    },
+    {
+      "id": 6,
+      "category": "Storage",
+      "imageUrl": "/category/ssd.png"
+    },
+    {
+      "id": 7,
+      "category": "Other",
+      "imageUrl": "/category/keyboard-and-mouse.png"
+    }
   ]
 }

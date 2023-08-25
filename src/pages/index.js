@@ -1,11 +1,12 @@
 import RootLayout from "@/components/Layouts/RootLayout";
 import HomeCarousel from "@/components/ui/Carousel";
+import FeaturedCategories from "@/components/ui/FeaturedCategories";
 import HeaderFeature from "@/components/ui/HeaderFeature";
-import { Col, Row } from "antd";
+import { Card, Col, Image, Row } from "antd";
 import React from "react";
 import Marquee from "react-fast-marquee";
 
-const Home = () => {
+const Home = ({ categories }) => {
   return (
     <div>
       <Row
@@ -27,6 +28,7 @@ const Home = () => {
         Smart Tech lanuch PC Builder. So now build your dream PC with Smart
         Tech.
       </Marquee>
+      <FeaturedCategories categories={categories} />
     </div>
   );
 };
@@ -35,4 +37,16 @@ export default Home;
 
 Home.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
+};
+
+export const getStaticProps = async () => {
+  const res = await fetch("http://localhost:5000/categories");
+  const data = await res.json();
+  console.log(data);
+
+  return {
+    props: {
+      categories: data,
+    },
+  };
 };
