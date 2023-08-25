@@ -52,9 +52,10 @@ PCBuilder.getLayout = function getLayout(page) {
 };
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:3000/api/categories");
+  const res = await fetch(
+    "https://smart-tech-arifmia1129.vercel.app/api/categories"
+  );
   const data = await res.json();
-
   return {
     props: {
       categories: data?.data,

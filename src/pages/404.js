@@ -1,12 +1,14 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
-import React from "react";
+import React, { useEffect } from "react";
 
 const NotFound = () => {
   const router = useRouter();
-  setTimeout(() => {
-    router.push("/");
-  }, 3000);
+  useEffect(() => {
+    setTimeout(() => {
+      router.push("/");
+    }, 3000);
+  }, [router]);
   return (
     <div
       style={{

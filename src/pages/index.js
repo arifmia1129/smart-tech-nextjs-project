@@ -58,14 +58,15 @@ function selectRandomProducts(data, numProducts = 6) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:3000/api/categories");
+  const res = await fetch(
+    "https://smart-tech-arifmia1129.vercel.app/api/categories"
+  );
   const data = await res.json();
-
-  const res2 = await fetch("http://localhost:3000/api/products");
+  const res2 = await fetch(
+    "https://smart-tech-arifmia1129.vercel.app/api/products"
+  );
   const data2 = await res2.json();
-
   const products = selectRandomProducts(data2.data);
-
   return {
     props: {
       categories: data?.data,

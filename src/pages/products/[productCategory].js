@@ -4,10 +4,9 @@ import { useRouter } from "next/router";
 import React from "react";
 
 const ProductsWithCategory = ({ products }) => {
-  const router = useRouter();
   return (
     <div>
-      <Products products={products} />
+      <Products products={products} />{" "}
     </div>
   );
 };
@@ -19,15 +18,14 @@ ProductsWithCategory.getLayout = function getLayout(page) {
 };
 
 export const getServerSideProps = async ({ params }) => {
-  const res = await fetch("http://localhost:3000/api/products");
+  const res = await fetch(
+    "https://smart-tech-arifmia1129.vercel.app/api/products"
+  );
   const data = await res.json();
-
   let filteredCategory;
-
   filteredCategory = data?.data?.filter(
     (product) => product.category === params.productCategory
   );
-
   return {
     props: {
       products: filteredCategory,
