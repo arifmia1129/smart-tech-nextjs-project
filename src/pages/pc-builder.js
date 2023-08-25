@@ -1,7 +1,27 @@
 import RootLayout from "@/components/Layouts/RootLayout";
 import SelectProductFromCatory from "@/components/ui/SelectProductFromCatory";
+import { Button } from "antd";
+import { useEffect, useState } from "react";
+import { useSelector } from "react-redux";
 
 const PCBuilder = ({ categories }) => {
+  const [isCompleteBtnDisable, setIsCompleteBtnDisable] = useState(true);
+  const { cpu, motherboard, ram, powerSupply, monitor, storage, other } =
+    useSelector((state) => state.buildPc);
+
+  useEffect(() => {
+    if (
+      cpu &&
+      motherboard &&
+      monitor &&
+      ram &&
+      powerSupply &&
+      storage &&
+      other
+    ) {
+      setIsCompleteBtnDisable(false);
+    }
+  }, [cpu, motherboard, monitor, ram, powerSupply, storage, other]);
   return (
     <div
       style={{ maxWidth: "1280px", marginLeft: "auto", marginRight: "auto" }}
@@ -9,6 +29,11 @@ const PCBuilder = ({ categories }) => {
       <h2 style={{ textAlign: "center", color: "blue" }}>
         PC Builder - Build Your Own Computer - Smart Tech
       </h2>
+      <div style={{ display: "flex", justifyContent: "end" }}>
+        <Button disabled={isCompleteBtnDisable} type="primary" size="large">
+          Complete Your PC Build
+        </Button>
+      </div>
       <SelectProductFromCatory categories={categories} />
     </div>
   );
