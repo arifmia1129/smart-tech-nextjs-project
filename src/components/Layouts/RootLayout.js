@@ -3,10 +3,12 @@ import { Breadcrumb, Button, Layout, Menu, theme } from "antd";
 import Link from "next/link";
 import Image from "next/image";
 const { Header, Content, Footer } = Layout;
+import { signOut, useSession } from "next-auth/react";
 const RootLayout = ({ children }) => {
   const {
     token: { colorBgContainer },
   } = theme.useToken();
+  const { data: session } = useSession();
   return (
     <Layout className="layout">
       <Header
@@ -21,10 +23,25 @@ const RootLayout = ({ children }) => {
             <Image src="/logo.png" alt="logo" height={50} width={200} />
           </Link>
         </div>
-        <div>
-          <Link href="/pc-builder">
-            <Button size="large">PC Builder</Button>
-          </Link>
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div>
+            <Link href="/pc-builder">
+              <Button size="large">PC Builder</Button>
+            </Link>
+          </div>
+          <div>
+            {session?.user ? (
+              <Button onClick={() => signOut()} type="link" size="large">
+                Logout
+              </Button>
+            ) : (
+              <Link href="/login">
+                <Button type="link" size="large">
+                  Login
+                </Button>
+              </Link>
+            )}
+          </div>
         </div>
       </Header>
       <Content
