@@ -16,11 +16,14 @@ const RootLayout = ({ children }) => {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
+          position: "sticky",
+          top: 0,
+          zIndex: 50,
         }}
       >
         <div style={{ display: "flex", alignItems: "center" }}>
           <Link style={{ display: "flex", alignItems: "center" }} href="/">
-            <Image src="/logo.png" alt="logo" height={50} width={200} />
+            <h1 style={{ color: "#fff", fontWeight: "bold" }}>Smart Tech</h1>
           </Link>
         </div>
         <div style={{ display: "flex", alignItems: "center" }}>
