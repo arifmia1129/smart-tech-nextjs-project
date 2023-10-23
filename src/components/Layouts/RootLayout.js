@@ -19,6 +19,7 @@ const RootLayout = ({ children }) => {
           position: "sticky",
           top: 0,
           zIndex: 50,
+          backgroundColor: "#F47C13",
         }}
       >
         <div style={{ display: "flex", alignItems: "center" }}>
@@ -34,12 +35,17 @@ const RootLayout = ({ children }) => {
           </div>
           <div>
             {session?.user ? (
-              <Button onClick={() => signOut()} type="link" size="large">
+              <Button
+                style={{ color: "#fff" }}
+                onClick={() => signOut()}
+                type="link"
+                size="large"
+              >
                 Logout
               </Button>
             ) : (
               <Link href="/login">
-                <Button type="link" size="large">
+                <Button style={{ color: "#fff" }} type="link" size="large">
                   Login
                 </Button>
               </Link>

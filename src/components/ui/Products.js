@@ -38,7 +38,16 @@ const Products = ({ products }) => {
   };
   return (
     <div style={{ marginTop: 30, marginBottom: 10 }}>
-      <h1 style={{ textAlign: "center", color: "gray" }}>Products</h1>
+      <h1
+        style={{
+          textAlign: "center",
+          color: "#F47C13",
+          fontWeight: "bold",
+          fontSize: 42,
+        }}
+      >
+        Products
+      </h1>
 
       <Row
         gutter={{
@@ -58,89 +67,112 @@ const Products = ({ products }) => {
             lg={6}
             style={{ marginBottom: 20 }}
           >
-            <Card style={{ height: 700 }} bordered={false}>
-              <div style={{ display: "flex", justifyContent: "center" }}>
-                <Image
-                  src={product?.imageUrl}
-                  alt="banner"
-                  height={150}
-                  width={150}
-                />
-              </div>
-              <h2 style={{ textAlign: "center" }}>{product?.name}</h2>
-              <div style={{ height: 150 }}>
-                <p style={{ color: "gray" }}>
-                  Brand: {product?.features?.brand}
-                </p>
-                <p style={{ color: "gray" }}>
-                  Model: {product?.features?.model}
-                </p>
-                <p style={{ color: "gray" }}>
-                  Specification: {product?.features?.specification}
-                </p>
-              </div>
-              <h3
-                style={{
-                  marginTop: 5,
-                  color: "orange",
-                  fontWeight: "bold",
-                  textAlign: "center",
-                }}
-              >
-                Price: {product.price}
-              </h3>
-              <h4
-                style={{
-                  marginTop: 5,
-                  color: "orange",
-                  fontWeight: "bold",
-                  textAlign: "center",
-                }}
-              >
-                {product.status}
-              </h4>
-              <h4
-                style={{
-                  marginTop: 5,
-                  color: "blue",
-                  fontWeight: "bold",
-                  textAlign: "center",
-                }}
-              >
-                Rating: {product.individualRating} of 5
-              </h4>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  marginTop: 40,
-                  height: 50,
-                }}
-              >
-                <Button
-                  onClick={() => handleChoseProduct(product)}
-                  type="primary"
-                  size="large"
+            <Link href={`products/details/${product._id}`}>
+              <Card style={{}} bordered={false}>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
                 >
-                  Add to Builder
-                </Button>
-              </div>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  height: 50,
-                }}
-              >
-                <Link href={`products/details/${product._id}`}>
-                  <Button type="primary" size="large">
-                    Details
+                  <Image
+                    src={product?.imageUrl}
+                    alt="banner"
+                    height={200}
+                    width={150}
+                  />
+                </div>
+                <h2
+                  style={{
+                    textAlign: "center",
+                    color: "#F47C13",
+                    fontSize: 28,
+                    fontWeight: "bold",
+                    height: 80,
+                  }}
+                >
+                  {product?.name}
+                </h2>
+                <div style={{ height: 100 }}>
+                  <ul>
+                    <li style={{ color: "gray" }}>
+                      Brand: {product?.features?.brand}
+                    </li>
+                    <li style={{ color: "gray" }}>
+                      Model: {product?.features?.model}
+                    </li>
+                    <li style={{ color: "gray" }}>
+                      Specification: {product?.features?.specification}
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  <div
+                    style={{
+                      height: 30,
+                      width: 30,
+                      backgroundColor: "#FF7A64",
+                      borderRadius: "100%",
+                      margin: 5,
+                    }}
+                  ></div>
+                  <div
+                    style={{
+                      height: 30,
+                      width: 30,
+                      backgroundColor: "#57BFC0",
+                      borderRadius: "100%",
+                      margin: 5,
+                    }}
+                  ></div>
+                  <div
+                    style={{
+                      height: 30,
+                      width: 30,
+                      backgroundColor: "#FFB551",
+                      borderRadius: "100%",
+                      margin: 5,
+                    }}
+                  ></div>
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <h3
+                    style={{
+                      color: "#F47C13",
+                      fontWeight: "bold",
+                      textAlign: "center",
+                      fontSize: 42,
+                      marginRight: 10,
+                    }}
+                  >
+                    {product.price}
+                  </h3>
+                  <Button
+                    onClick={() => handleChoseProduct(product)}
+                    size="large"
+                    style={{
+                      borderColor: "#F47C13",
+                      color: "#F47C13",
+                      fontWeight: "bold",
+                      fontSize: 16,
+                    }}
+                  >
+                    Add for Builder
                   </Button>
-                </Link>
-              </div>
-            </Card>
+                </div>
+              </Card>
+            </Link>
           </Col>
         ))}
       </Row>

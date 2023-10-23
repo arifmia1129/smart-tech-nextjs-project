@@ -6,7 +6,14 @@ import React from "react";
 const FeaturedCategories = ({ categories }) => {
   return (
     <div style={{ marginTop: 30, marginBottom: 10 }}>
-      <h1 style={{ textAlign: "center", color: "gray" }}>
+      <h1
+        style={{
+          textAlign: "center",
+          color: "#F47C13",
+          fontWeight: "bold",
+          fontSize: 42,
+        }}
+      >
         Featured Categories
       </h1>
       <Row
