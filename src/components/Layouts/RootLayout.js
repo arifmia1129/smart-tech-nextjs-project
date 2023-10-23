@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 const { Header, Content, Footer } = Layout;
 import { signOut, useSession } from "next-auth/react";
+import SmartTechFooter from "../ui/SmartTechFooter";
 const RootLayout = ({ children }) => {
   const {
     token: { colorBgContainer },
@@ -67,13 +68,7 @@ const RootLayout = ({ children }) => {
           {children}
         </div>
       </Content>
-      <Footer
-        style={{
-          textAlign: "center",
-        }}
-      >
-        Smart Tech ©2023
-      </Footer>
+      <SmartTechFooter />
     </Layout>
   );
 };
