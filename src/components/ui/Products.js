@@ -67,8 +67,8 @@ const Products = ({ products }) => {
             lg={6}
             style={{ marginBottom: 20 }}
           >
-            <Link href={`products/details/${product._id}`}>
-              <Card style={{}} bordered={false}>
+            <Card bordered={false}>
+              <Link href={`/products/details/${product._id}`}>
                 <div
                   style={{
                     display: "flex",
@@ -140,39 +140,40 @@ const Products = ({ products }) => {
                     }}
                   ></div>
                 </div>
-                <div
+              </Link>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <h3
                   style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
+                    color: "#F47C13",
+                    fontWeight: "bold",
+                    textAlign: "center",
+                    fontSize: 42,
+                    marginRight: 10,
                   }}
                 >
-                  <h3
-                    style={{
-                      color: "#F47C13",
-                      fontWeight: "bold",
-                      textAlign: "center",
-                      fontSize: 42,
-                      marginRight: 10,
-                    }}
-                  >
-                    {product.price}
-                  </h3>
-                  <Button
-                    onClick={() => handleChoseProduct(product)}
-                    size="large"
-                    style={{
-                      borderColor: "#F47C13",
-                      color: "#F47C13",
-                      fontWeight: "bold",
-                      fontSize: 16,
-                    }}
-                  >
-                    Add for Builder
-                  </Button>
-                </div>
-              </Card>
-            </Link>
+                  {product.price}
+                </h3>
+
+                <Button
+                  onClick={() => handleChoseProduct(product)}
+                  size="large"
+                  style={{
+                    borderColor: "#F47C13",
+                    color: "#F47C13",
+                    fontWeight: "bold",
+                    fontSize: 16,
+                  }}
+                >
+                  Add for Builder
+                </Button>
+              </div>
+            </Card>
           </Col>
         ))}
       </Row>

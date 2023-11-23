@@ -1,14 +1,10 @@
 import React from "react";
 import { Breadcrumb, Button, Layout, Menu, theme } from "antd";
 import Link from "next/link";
-import Image from "next/image";
 const { Header, Content, Footer } = Layout;
 import { signOut, useSession } from "next-auth/react";
 import SmartTechFooter from "../ui/SmartTechFooter";
 const RootLayout = ({ children }) => {
-  const {
-    token: { colorBgContainer },
-  } = theme.useToken();
   const { data: session } = useSession();
   return (
     <Layout className="layout">
